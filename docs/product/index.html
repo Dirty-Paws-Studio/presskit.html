@@ -21,7 +21,7 @@
               <div class="pilwrap ">
                 <a class="pilcrow" href="#section-1">&#182;</a>
               </div>
-              <h1 id="product-presskit-html">Product — presskit.html</h1>
+              <h1 id="product--presskithtml">Product — presskit.html</h1>
 
             </div>
             
@@ -37,7 +37,8 @@
               <p><strong>This is your product or game page</strong>. It should focus on <em>ONLY</em> one product. This is not a replacement for your product’s website, but a quick way for the press to know it faster.</p>
 <p><a href="http://pixelnest.io/presskit.html/example/product/">Check the actual rendered page for the code you’ll find below.</a></p>
 <p>If you don’t have a <code>data.xml</code> yet, the easiest way to start is to run this command in your presskit folder:</p>
-<pre><code class="language-bash">presskit new -t product</code></pre>
+<pre><code class="language-bash">presskit new -t product
+</code></pre>
 <p>Then, open the generated <code>data.xml</code> file and fill the blanks while following this guide.</p>
 <hr>
 
@@ -60,7 +61,7 @@
 
             </div>
             
-            <div class="content"><div class='highlight'><pre><span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">"1.0"</span> encoding=<span class="hljs-string">"utf-8"</span><span class="hljs-meta">?&gt;</span></span></pre></div></div>
+            <div class="content"><div class='highlight'><pre><span class="hljs-meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span></pre></div></div>
             
         </li>
         
@@ -253,10 +254,14 @@
               <p>You can specify relations between products using the <code>&lt;relations&gt;</code> tag.</p>
 <p>Then, on this page product, you will see a new line in the factsheet:</p>
 <pre><code>DLC:
-My Super Game: Ultimate Edition</code></pre><p>Of course, the <code>Product Name</code> value is clickable.</p>
+My Super Game: Ultimate Edition
+</code></pre>
+<p>Of course, the <code>Product Name</code> value is clickable.</p>
 <p>In the related product page, a new value will also be added:</p>
 <pre><code>DLC of:
-My Super Game</code></pre><p><em>Obviously, since the name we provide in the example is not a real product (ie., the product data.xml does not exist), this tag will be ignored for this page.</em></p>
+My Super Game
+</code></pre>
+<p><em>Obviously, since the name we provide in the example is not a real product (ie., the product data.xml does not exist), this tag will be ignored for this page.</em></p>
 <p>You can have as many relations as you want. You can use it to show DLCs, expansions, sequels, prequels, etc.</p>
 <p><strong>Warning</strong>: you need to rebuild the presskit to see the changes.</p>
 
@@ -278,7 +283,7 @@ My Super Game</code></pre><p><em>Obviously, since the name we provide in the exa
               <div class="pilwrap ">
                 <a class="pilcrow" href="#section-14">&#182;</a>
               </div>
-              <h2 id="description-history">Description &amp; History</h2>
+              <h2 id="description--history">Description &amp; History</h2>
 
             </div>
             
@@ -296,7 +301,7 @@ My Super Game</code></pre><p><em>Obviously, since the name we provide in the exa
             </div>
             
             <div class="content"><div class='highlight'><pre>  <span class="hljs-tag">&lt;<span class="hljs-name">description</span>&gt;</span>
-    Here goes a quick description of your product or game. Be concise and explain in very few words the concept or the gameplay and why it's really cool and why everyone should use or play it.
+    Here goes a quick description of your product or game. Be concise and explain in very few words the concept or the gameplay and why it&#x27;s really cool and why everyone should use or play it.
   <span class="hljs-tag">&lt;/<span class="hljs-name">description</span>&gt;</span></pre></div></div>
             
         </li>
@@ -352,10 +357,10 @@ My Super Game</code></pre><p><em>Obviously, since the name we provide in the exa
             
             <div class="content"><div class='highlight'><pre>  <span class="hljs-tag">&lt;<span class="hljs-name">features</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">feature</span>&gt;</span>
-      List some "Key Sellings Points" to grab player's attention.
+      List some &quot;Key Sellings Points&quot; to grab player&#x27;s attention.
     <span class="hljs-tag">&lt;/<span class="hljs-name">feature</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">feature</span>&gt;</span>
-      Don't be too generic ("pixel art graphics!"), don't be too pretentious ("most incredible game experience!").
+      Don&#x27;t be too generic (&quot;pixel art graphics!&quot;), don&#x27;t be too pretentious (&quot;most incredible game experience!&quot;).
     <span class="hljs-tag">&lt;/<span class="hljs-name">feature</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">feature</span>&gt;</span>
       Also, people like numbers, so you can add some (450 weapons, hundreds of levels, dozens of hours of playtime!).
@@ -397,7 +402,9 @@ My Super Game</code></pre><p><em>Obviously, since the name we provide in the exa
 <p>You can use YouTube and/or Vimeo. Only one is needed, and only one is recommended.</p>
 <p>Don’t put the full link: just the ID is necessary.</p>
 <p>If you want to provide a link to download the video, add this tag in <code>&lt;trailer&gt;</code>:</p>
-<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">download</span>&gt;</span>https://example.com/video.mp4<span class="hljs-tag">&lt;/<span class="hljs-name">download</span>&gt;</span></code></pre>
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">download</span>&gt;</span>https://example.com/video.mp4<span class="hljs-tag">&lt;/<span class="hljs-name">download</span>&gt;</span>
+</code></pre>
+
             </div>
             
             <div class="content"><div class='highlight'><pre>  <span class="hljs-tag">&lt;<span class="hljs-name">trailers</span>&gt;</span>
@@ -467,7 +474,7 @@ My Super Game</code></pre><p><em>Obviously, since the name we provide in the exa
               <div class="pilwrap ">
                 <a class="pilcrow" href="#section-23">&#182;</a>
               </div>
-              <h2 id="awards-quotes-links">Awards, quotes &amp; links</h2>
+              <h2 id="awards-quotes--links">Awards, quotes &amp; links</h2>
 
             </div>
             
@@ -523,9 +530,9 @@ My Super Game</code></pre><p><em>Obviously, since the name we provide in the exa
       <span class="hljs-tag">&lt;<span class="hljs-name">link</span>&gt;</span>http://at.home/<span class="hljs-tag">&lt;/<span class="hljs-name">link</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">quote</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">quote</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">description</span>&gt;</span>A very serious quote you're very proud of by someone you respect.<span class="hljs-tag">&lt;/<span class="hljs-name">description</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">description</span>&gt;</span>A very serious quote you&#x27;re very proud of by someone you respect.<span class="hljs-tag">&lt;/<span class="hljs-name">description</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">name</span>&gt;</span>Master<span class="hljs-tag">&lt;/<span class="hljs-name">name</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">website</span>&gt;</span>Master's website<span class="hljs-tag">&lt;/<span class="hljs-name">website</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">website</span>&gt;</span>Master&#x27;s website<span class="hljs-tag">&lt;/<span class="hljs-name">website</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">link</span>&gt;</span>http://mast.er/<span class="hljs-tag">&lt;/<span class="hljs-name">link</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">quote</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">quote</span>&gt;</span>
@@ -617,7 +624,7 @@ My Super Game</code></pre><p><em>Obviously, since the name we provide in the exa
               <div class="pilwrap ">
                 <a class="pilcrow" href="#section-29">&#182;</a>
               </div>
-              <h2 id="team-contacts">Team &amp; Contacts</h2>
+              <h2 id="team--contacts">Team &amp; Contacts</h2>
 
             </div>
             

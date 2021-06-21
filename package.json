@@ -24,7 +24,7 @@
     "lint": "standard | snazzy ",
     "test": "npm run lint && jest",
     "tester": "jest --watch",
-    "docs": "./documentation",
+    "docs": "bash ./generate-docs.sh",
     "docs:example": "node bin/presskit build -DLM -o docs/example data"
   },
   "dependencies": {

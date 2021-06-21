@@ -21,7 +21,7 @@
               <div class="pilwrap ">
                 <a class="pilcrow" href="#section-1">&#182;</a>
               </div>
-              <h1 id="company-presskit-html">Company — presskit.html</h1>
+              <h1 id="company--presskithtml">Company — presskit.html</h1>
 
             </div>
             
@@ -37,7 +37,8 @@
               <p><strong>This is your company page</strong>. It should not focus on a specific product, but present your whole company. The journalists won’t, most of the time, know you or your studio. With this page, you will have an opportunity to show your people, your work, your history and your contributions in a standard format. This is not a replacement for your website, but a quick way for the press to know you faster.</p>
 <p><a href="http://pixelnest.io/presskit.html/example/">Check the actual rendered page for the code you’ll find below.</a></p>
 <p>If you don’t have a <code>data.xml</code> yet, the easiest way to start is to run this command in your presskit folder:</p>
-<pre><code class="language-bash">presskit new -t company</code></pre>
+<pre><code class="language-bash">presskit new -t company
+</code></pre>
 <p>Then, open the generated <code>data.xml</code> file and fill the blanks while following this guide.</p>
 <p>Okay… ready? Let’s do this.</p>
 <hr>
@@ -61,7 +62,7 @@
 
             </div>
             
-            <div class="content"><div class='highlight'><pre><span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">"1.0"</span> encoding=<span class="hljs-string">"utf-8"</span><span class="hljs-meta">?&gt;</span></span></pre></div></div>
+            <div class="content"><div class='highlight'><pre><span class="hljs-meta">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span></pre></div></div>
             
         </li>
         
@@ -200,7 +201,7 @@ You can put whatever you like.</p>
               <div class="pilwrap ">
                 <a class="pilcrow" href="#section-11">&#182;</a>
               </div>
-              <h2 id="description-history">Description &amp; History</h2>
+              <h2 id="description--history">Description &amp; History</h2>
 
             </div>
             
@@ -240,7 +241,8 @@ You can put whatever you like.</p>
 <p>Example of a single block:</p>
 <pre><code class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">history</span>&gt;</span>
 Hello, world.
-<span class="hljs-tag">&lt;/<span class="hljs-name">history</span>&gt;</span></code></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">history</span>&gt;</span>
+</code></pre>
 
             </div>
             
@@ -281,12 +283,14 @@ Hello, world.
 <p>You can use YouTube and/or Vimeo. Only one is needed, and only one is recommended.</p>
 <p>Don’t put the full link: just the ID is necessary.</p>
 <p>If you want to provide a link to download the video, add this tag in <code>&lt;trailer&gt;</code>:</p>
-<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">download</span>&gt;</span>https://example.com/video.mp4<span class="hljs-tag">&lt;/<span class="hljs-name">download</span>&gt;</span></code></pre>
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">download</span>&gt;</span>https://example.com/video.mp4<span class="hljs-tag">&lt;/<span class="hljs-name">download</span>&gt;</span>
+</code></pre>
+
             </div>
             
             <div class="content"><div class='highlight'><pre>  <span class="hljs-tag">&lt;<span class="hljs-name">trailers</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">trailer</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">name</span>&gt;</span>Example from YouTube. Don't give a full link: the ID is enough<span class="hljs-tag">&lt;/<span class="hljs-name">name</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">name</span>&gt;</span>Example from YouTube. Don&#x27;t give a full link: the ID is enough<span class="hljs-tag">&lt;/<span class="hljs-name">name</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">youtube</span>&gt;</span>er416Ad3R1g<span class="hljs-tag">&lt;/<span class="hljs-name">youtube</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">trailer</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">trailer</span>&gt;</span>
@@ -324,7 +328,7 @@ Hello, world.
               <div class="pilwrap ">
                 <a class="pilcrow" href="#section-17">&#182;</a>
               </div>
-              <h2 id="awards-quotes-links">Awards, quotes &amp; links</h2>
+              <h2 id="awards-quotes--links">Awards, quotes &amp; links</h2>
 
             </div>
             
@@ -369,7 +373,7 @@ Hello, world.
             
             <div class="content"><div class='highlight'><pre>  <span class="hljs-tag">&lt;<span class="hljs-name">quotes</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">quote</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">description</span>&gt;</span>There's not enough pizza in your life. It's never enough.<span class="hljs-tag">&lt;/<span class="hljs-name">description</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">description</span>&gt;</span>There&#x27;s not enough pizza in your life. It&#x27;s never enough.<span class="hljs-tag">&lt;/<span class="hljs-name">description</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">name</span>&gt;</span>@mrhelmut<span class="hljs-tag">&lt;/<span class="hljs-name">name</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">website</span>&gt;</span>Tweet<span class="hljs-tag">&lt;/<span class="hljs-name">website</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">link</span>&gt;</span>
@@ -415,7 +419,7 @@ Hello, world.
               <div class="pilwrap ">
                 <a class="pilcrow" href="#section-21">&#182;</a>
               </div>
-              <h2 id="team-contacts">Team &amp; Contacts</h2>
+              <h2 id="team--contacts">Team &amp; Contacts</h2>
 
             </div>
             
